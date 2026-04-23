@@ -1,0 +1,136 @@
+const translations = {
+  tr: {
+    badge: 'Profesyonel AI Prompt Mimarı v2.0',
+    title1: 'GitHub',
+    title2: 'Analiz Motoru',
+    subtitle: "Profil, repolar, README'ler, aktiviteler ve dil dağılımını çekin — yapay zeka için en kapsamlı analiz promptunu saniyeler içinde oluşturun.",
+    placeholder: 'GitHub Kullanıcı Adı (Örn: torvalds)',
+    analyze: 'Analiz Et',
+    notFound: 'Kullanıcı bulunamadı.',
+    rateLimit: 'API istek sınırı doldu. (Rate Limit)',
+    fetchError: 'Veri çekme sırasında bir hata oluştu.',
+    loading: {
+      profile: 'Profil bilgileri çekiliyor...',
+      repos: 'Repolar analiz ediliyor...',
+      events: 'Aktivite geçmişi taranıyor...',
+      readmes: 'README dosyaları okunuyor...',
+      prompt: 'AI Prompt hazırlanıyor...',
+    },
+    stats: {
+      totalStars: 'Toplam Yıldız',
+      totalForks: 'Toplam Fork',
+      repoCount: 'Repo Sayısı',
+      followers: 'Takipçi',
+      avgStars: 'Ort. Yıldız/Repo',
+      totalWatchers: 'Toplam İzleyici',
+    },
+    profile: {
+      repos: 'Repolar',
+      totalStars: 'Toplam Yıldız',
+      following: 'Takip',
+      years: 'Yıl',
+      joinedOn: 'tarihinde katıldı',
+      viewProfile: 'Profili Görüntüle',
+    },
+    langChart: {
+      title: 'Dil Dağılımı',
+    },
+    topRepos: {
+      title: 'En Popüler Repolar',
+      noDesc: 'Açıklama yok',
+    },
+    recentRepos: {
+      title: 'Son Güncellenen Repolar',
+      noDesc: 'Açıklama yok',
+      timeAgo: { min: 'dk önce', hour: 'sa önce', day: 'g önce', month: 'ay önce' },
+    },
+    readme: {
+      title: 'Top 3 Repo README Önizlemesi',
+      truncated: '... README devamı kısaltıldı ...',
+    },
+    activity: {
+      title: 'Son Aktiviteler',
+      push: 'Push', create: 'Create', delete: 'Silme', star: 'Yıldız',
+      fork: 'Fork', issue: 'Issue', pr: 'PR', comment: 'Yorum', release: 'Sürüm',
+      justNow: 'Az önce',
+    },
+    promptSection: {
+      title: 'AI Mega Prompt Hazır',
+      copy: 'Promptu Kopyala',
+      copied: 'Kopyalandı!',
+      hint: "Bu promptu ChatGPT, Claude veya Gemini'ye yapıştırarak derinlemesine analiz alabilirsiniz.",
+    },
+    footer: {
+      madeBy: 'tarafından',
+      builtWith: '♥ ile yapıldı',
+    },
+  },
+  en: {
+    badge: 'Professional AI Prompt Architect v2.0',
+    title1: 'GitHub',
+    title2: 'Analysis Engine',
+    subtitle: 'Pull profiles, repos, READMEs, activities & language distributions — generate the most comprehensive AI analysis prompt in seconds.',
+    placeholder: 'GitHub Username (e.g. torvalds)',
+    analyze: 'Analyze',
+    notFound: 'User not found.',
+    rateLimit: 'API rate limit exceeded.',
+    fetchError: 'An error occurred while fetching data.',
+    loading: {
+      profile: 'Fetching profile data...',
+      repos: 'Analyzing repositories...',
+      events: 'Scanning activity history...',
+      readmes: 'Reading README files...',
+      prompt: 'Generating AI prompt...',
+    },
+    stats: {
+      totalStars: 'Total Stars',
+      totalForks: 'Total Forks',
+      repoCount: 'Repositories',
+      followers: 'Followers',
+      avgStars: 'Avg Stars/Repo',
+      totalWatchers: 'Total Watchers',
+    },
+    profile: {
+      repos: 'Repos',
+      totalStars: 'Total Stars',
+      following: 'Following',
+      years: 'Years',
+      joinedOn: 'Joined on',
+      viewProfile: 'View Profile',
+    },
+    langChart: {
+      title: 'Language Distribution',
+    },
+    topRepos: {
+      title: 'Most Popular Repos',
+      noDesc: 'No description',
+    },
+    recentRepos: {
+      title: 'Recently Updated Repos',
+      noDesc: 'No description',
+      timeAgo: { min: 'm ago', hour: 'h ago', day: 'd ago', month: 'mo ago' },
+    },
+    readme: {
+      title: 'Top 3 Repo README Preview',
+      truncated: '... README truncated ...',
+    },
+    activity: {
+      title: 'Recent Activity',
+      push: 'Push', create: 'Create', delete: 'Delete', star: 'Star',
+      fork: 'Fork', issue: 'Issue', pr: 'PR', comment: 'Comment', release: 'Release',
+      justNow: 'Just now',
+    },
+    promptSection: {
+      title: 'AI Mega Prompt Ready',
+      copy: 'Copy Prompt',
+      copied: 'Copied!',
+      hint: 'Paste this prompt into ChatGPT, Claude, or Gemini for a deep analysis.',
+    },
+    footer: {
+      madeBy: 'by',
+      builtWith: 'Built with ♥',
+    },
+  },
+};
+
+export default translations;

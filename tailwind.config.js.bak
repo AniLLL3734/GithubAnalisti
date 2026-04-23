@@ -1,0 +1,3 @@
+// Tailwind v4 uses the @tailwindcss/vite plugin and @import "tailwindcss" in CSS.
+// This file is no longer needed but kept as a placeholder to prevent errors.
+export default {}
