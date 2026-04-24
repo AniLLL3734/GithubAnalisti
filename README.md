@@ -17,6 +17,10 @@
   <img src="https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind" />
   <img src="https://img.shields.io/badge/GitHub_API-v3-181717?logo=github&logoColor=white" alt="GitHub API" />
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License" />
+  <br/><br/>
+  <a href="https://github-analisti.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-github--analisti.vercel.app-indigo?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+  </a>
 </p>
 
 ---
